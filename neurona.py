@@ -7,6 +7,7 @@ import numpy as np
 
 class Neurona():
 
+
     def __init__(self, file=None, headerPos=None, N_Data=100, ColumnsUse=[0, 2], Subtype='setosa', target=4):
         self.file = file
         self.headerPos = headerPos
